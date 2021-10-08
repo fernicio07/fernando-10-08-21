@@ -2,8 +2,9 @@
 
 I used [Create React App](https://github.com/facebook/create-react-app) to bootstrap this project.
 
-## Deployed production build
+## Deployed
 
+https://fernando-10-08-21.vercel.app/
 
 
 ## Run the project in development mode
