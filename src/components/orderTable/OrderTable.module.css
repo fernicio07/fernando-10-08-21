@@ -1,0 +1,38 @@
+.orderTable {
+  width: 100%;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  margin-left: -2px;
+}
+
+thead {
+  color: rgb(153, 164, 185);
+}
+
+.tableRow {
+  position: relative;
+  display: flex;
+}
+
+.tableCell {
+  flex: 1;
+  z-index: 2;
+}
+
+.tableCellWrapper {
+  text-align: right;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 500px) {
+  .tableCellWrapper {
+    width: 68px;
+  }
+}
+
+.orderDepthBar {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  padding: 0;
+}

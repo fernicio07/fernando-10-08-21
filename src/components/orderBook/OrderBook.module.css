@@ -1,0 +1,30 @@
+.orderBook {
+  border-radius: 3px;
+  color: #cbced3;
+  max-width: 720px;
+  height: 100%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 380px) {
+  .orderBook {
+    width: 100%;
+  }
+}
+
+.orderBookHeader {
+  background-color: #101826;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 10px;
+  justify-content: flex-start;
+}
+
+.footer {
+  min-height: 40px;
+  margin: 20px;
+}
