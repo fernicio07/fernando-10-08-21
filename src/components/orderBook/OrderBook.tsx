@@ -34,7 +34,10 @@ export function OrderBook() {
         <p className={styles.title}>Order Book | {productFeedSubscription}</p>
       </div>
 
-      <OrderFeed productFeedSubscription={productFeedSubscription} />
+      <OrderFeed
+        grouping={grouping}
+        productFeedSubscription={productFeedSubscription}
+      />
 
       <div className={styles.footer}>
         <button onClick={toggleSubscription}>Toggle Feed</button>
